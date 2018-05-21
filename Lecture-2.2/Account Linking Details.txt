@@ -1,0 +1,6 @@
+•	Authorization URL: https://www.amazon.com/ap/oa
+•	Client ID: Client ID from the Security Profile which we created earlier
+•	Scope: profile; This profile scope will give us access to the user’s name, email and user ID. 
+•	Authorization Grant Type: Auth Code Grant
+•	Access Token URL: https://api.amazon.com/auth/o2/token
+•	Client Secret: Client Secret from the Security Profile

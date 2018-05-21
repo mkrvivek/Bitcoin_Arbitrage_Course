@@ -1,0 +1,60 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bitcoin buddy",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SpotPriceIntent",
+                    "slots": [],
+                    "samples": [
+                        "What is the current spread",
+                        "Is there any Bitcoin Arbitrage",
+                        "Get me Bitcoin Arbitrage information",
+                        "Give me Info",
+                        "What is the current bitcoin spread"
+                    ]
+                },
+                {
+                    "name": "SetSpreadIntent",
+                    "slots": [
+                        {
+                            "name": "Spread",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Send a mail at {Spread} Dollars",
+                        "Set Spread at {Spread} Dollars",
+                        "Mail me when the spread is at {Spread} Dollars",
+                        "Mail me at {Spread} Dollars"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}

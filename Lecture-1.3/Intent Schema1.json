@@ -1,0 +1,37 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bitcoin buddy",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SpotPriceIntent",
+                    "slots": [],
+                    "samples": [
+                        "What is the current spread",
+                        "Is there any Bitcoin Arbitrage",
+                        "Get me Bitcoin Arbitrage information",
+                        "Give me Info",
+                        "What is the current bitcoin spread"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
