@@ -21,7 +21,7 @@ var Handler =
 			this.emit(':tellWithLinkAccountCard',"For a better experience,please link your account through the link account card sent to your home section");
 		}else
 		{
-            this.emit(":askWithCard","Hi , you can ask me the current bitcoin arbitrage","Hi,you can get information about the current bitcoin arbitrage or you can set an mail alert","Bitcoin  Skill","Hi ,say get info or mail me and specify the required value in dollars");
+              		this.emit(":askWithCard","Hi , you can ask me the current bitcoin arbitrage","Hi,you can get information about the current bitcoin arbitrage or you can set an mail alert","Bitcoin  Skill","Hi ,say get info or mail me and specify the required value in dollars");
 		}
     },
     "SpotPriceIntent" : function()
